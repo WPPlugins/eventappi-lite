@@ -1,0 +1,83 @@
+body.post-type-eventappi_ticket .tablenav .actions {
+  overflow: visible;
+}
+body.users-organisers .menu-icon-users {
+  display: none;
+}
+/* custom styles */
+#eventappi-wrapper form[name=delete] {
+  float: left;
+}
+#eventappi-wrapper .no-button {
+  float: left;
+  margin: 0 0 0 5px;
+}
+#eventappi-wrapper .tickets {
+  border: 1px solid #CCC;
+  margin-bottom: 10px;
+}
+#eventappi-wrapper .hidden {
+  display: none;
+}
+.list-link {
+  float: left;
+  margin-left: 20px!important;
+  width: 135px;
+  text-align: center;
+}
+#event-stats,
+#ticket-stats,
+#view-stats,
+#venue-stats,
+#event-revenue-stats,
+#organizer-stats,
+#revenue-per-day-stats {
+  width: 100%;
+  min-height: 600px;
+}
+#wp-eventappi_notes-wrap {
+  width: 55%;
+}
+ul.ticket-tabs {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+ul.ticket-tabs li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+ul.ticket-tabs li.current {
+  background: #ededed;
+}
+.ticket-tabs-content {
+  display: none;
+  background: #ededed;
+  padding: 15px;
+}
+.ticket-tabs-content.current {
+  display: block;
+}
+#add-ticket-tabs {
+  margin: 5px 0px;
+  padding: 5px 10px;
+  background: #CCC;
+  color: #FFF;
+}
+.eventappi-notice {
+  margin: 0;
+  border-left: 4px solid #ffba00;
+  background-color: #ffe8e8;
+}
+h3.ui-accordion-header {
+  margin: 0 0 5px 0 !important;
+}
+.ea-error {
+  color: #CC0000;
+}
+.ea-note {
+  padding: 12px !important;
+}
